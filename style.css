@@ -1,0 +1,216 @@
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0 auto;
+        }
+
+        .containerGeneral {
+            display: flex;
+            flex-direction: column;
+            /* max-width: 1000px;
+            min-width: 700px; */
+            margin: 0 auto;
+            height: 100vh;
+            /* flex-grow: 1; */
+        }
+
+        .containerMain {
+            display: flex;
+            flex-direction: row;
+            /* height: 300px; */
+            max-width: 1400px;
+            min-width: 700px;
+            /* width: 100%; */
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .fdc {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .fdr {
+            display: flex;
+            flex-direction: row;
+        }
+
+
+        /* left column */
+        .lc {
+            background: rgb(0, 0, 0);
+            width: 300px;
+            flex-shrink: 0;
+            /* padding-left: 150px; */
+            /* max-width: 30vh; */
+        }
+
+        /* right column */
+        .rc {
+            background: rgb(255, 255, 255);
+            width: 700px;
+            /* padding-right: 150px; */
+            flex-grow: 1;
+        }
+
+        .columnpadding {
+            background: rgb(0, 0, 0);
+            width: 100px;
+            flex-grow: 1;
+        }
+
+        .columnpaddingBlack {
+            background: rgb(255, 255, 255);
+            width: 100px;
+            flex-grow: 1;
+        }
+
+        .image {
+            background-color: pink;
+            width: 250px;
+            height: 250px;
+            border: 10px solid rgb(255, 255, 255);
+            box-sizing: border-box;
+        }
+
+        .alignimage {
+            justify-content: baseline;
+        }
+
+        .paddingsection {
+            padding: 25px 25px 25px 25px;
+        }
+
+        .padding-row {
+            padding: 0px 0px 0px 15px;
+        }
+
+        .alignhead {
+            align-self: center;
+        }
+
+        .textmargin {
+            margin: 0px;
+        }
+
+        .textpaddingleft {
+            padding: 25px 25px 10px 25px;
+        }
+
+        .icon {
+            width: 20px;
+            height: 20px;
+            display: block;
+        }
+
+        .color-black {
+            color: #000000;
+        }
+
+        .color-ogange {
+            color: #f0ae12;
+        }
+
+        .li {
+            display: flex;
+            justify-content: flex-start;
+            padding: 10px 0px 10px 0px;
+            color: #ffffff;
+            line-height: 1.5;
+        }
+
+        .contact__link {
+            color: #ffffff;
+            text-decoration: none;
+            text-decoration-line: none;
+            text-decoration-thickness: initial;
+            text-decoration-style: initial;
+            text-decoration-color: initial;
+
+            /* Анимация изменения цвета текста */
+            transition: color 0.4s;
+        }
+
+        /* Стили, применяемые при наведении */
+        .contact__link a:hover {
+            color: #f0ae12;
+        }
+
+
+        @media screen and (max-width: 1050px) {
+
+            .columnpadding {
+                width: 50px;
+            }
+
+            .columnpaddingBlack {
+                width: 50px;
+            }
+        }
+
+        @media screen and (max-width: 750px) {
+
+
+            .containerMain {
+                flex-direction: column;
+                height: auto;
+                max-width: auto;
+                min-width: auto;
+            }
+
+            .fdc {
+                display: auto;
+                flex-direction: auto;
+            }
+
+            .container {
+                justify-content: center
+            }
+
+
+            .image {
+                width: 300px;
+                height: auto;
+            }
+
+            .alignimage {
+                justify-content: center;
+            }
+
+            .lc {
+                width: auto;
+                padding-left: 0px;
+            }
+
+            .rc {
+                width: auto;
+                padding-right: 0px;
+            }
+
+            .containerGeneral {
+                display: flex;
+                flex-direction: column;
+                width: auto;
+                margin: 0 auto;
+            }
+
+            .columnpadding {
+                width: 50px;
+            }
+
+            .columnpaddingBlack {
+                width: 0px;
+            }
+
+            .textpaddingleft {
+                padding: 25px;
+            }
+
+            .paddingsection {
+                padding: 25px;
+                max-width: 500px;
+            }
+
+
+        }

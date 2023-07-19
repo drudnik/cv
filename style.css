@@ -3,23 +3,27 @@
             margin: 0 auto;
         }
 
+        ul {
+            list-style-type:none;
+            padding: 0px;
+        }
+
+        .experience {
+            list-style-type: square;
+            padding-left: 20px;
+        }
         .containerGeneral {
             display: flex;
             flex-direction: column;
-            /* max-width: 1000px;
-            min-width: 700px; */
             margin: 0 auto;
             height: 100vh;
-            /* flex-grow: 1; */
         }
 
         .containerMain {
             display: flex;
             flex-direction: row;
-            /* height: 300px; */
             max-width: 1400px;
             min-width: 700px;
-            /* width: 100%; */
         }
 
         .container {
@@ -36,21 +40,17 @@
             flex-direction: row;
         }
 
-
         /* left column */
         .lc {
             background: rgb(0, 0, 0);
             width: 300px;
             flex-shrink: 0;
-            /* padding-left: 150px; */
-            /* max-width: 30vh; */
         }
 
         /* right column */
         .rc {
             background: rgb(255, 255, 255);
             width: 700px;
-            /* padding-right: 150px; */
             flex-grow: 1;
         }
 
@@ -112,11 +112,20 @@
             color: #f0ae12;
         }
 
+        .line-border {
+            border-bottom: 4px solid #f0ae12;
+            width: 100%;
+        }
+
         .li {
             display: flex;
             justify-content: flex-start;
-            padding: 10px 0px 10px 0px;
+            padding: 5px 0px 5px 0px;
             color: #ffffff;
+            line-height: 1.5;
+        }
+
+        .line-height {
             line-height: 1.5;
         }
 
@@ -137,6 +146,34 @@
             color: #f0ae12;
         }
 
+        .bold {
+            font-weight: bold;
+        }
+
+        .experience-text-block {
+            background: #ffffff;
+            display: flex;
+            flex-direction: column;
+            flex-basis: 30%
+        }
+
+        .experience-text-row {
+            display: flex;
+            justify-content: flex-start;
+        }
+        .experience-text-column {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
+        .button-date {
+            background-color: #f0ae12;
+            color: #000000;
+            border-radius: 4px;
+            display: inline-block;
+            padding: 1px 20px;
+        }
 
         @media screen and (max-width: 1050px) {
 

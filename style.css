@@ -136,16 +136,31 @@
             text-decoration-thickness: initial;
             text-decoration-style: initial;
             text-decoration-color: initial;
-
-            /* Анимация изменения цвета текста */
-            transition: color 0.4s;
+            /* Скорость анимации изменения цвета текста */
+            transition: color 0.5s;
         }
 
         /* Стили, применяемые при наведении */
         .contact__link a:hover {
             color: #f0ae12;
         }
+        .contact__link_black {
+            color: #000000;
+            text-decoration: none;
+            text-decoration-line: none;
+            text-decoration-thickness: initial;
+            text-decoration-style: initial;
+            text-decoration-color: initial;
+            /* Скорость анимации изменения цвета текста */
+            transition: color 0.5s;
+        }
 
+        /* Стили, применяемые при наведении */
+        .contact__link_black a:hover {
+            color: #f0ae12;
+            text-decoration:underline;
+            text-decoration-line: underline;
+        }
         .bold {
             font-weight: bold;
         }

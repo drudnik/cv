@@ -4,7 +4,7 @@
         }
 
         ul {
-            list-style-type:none;
+            list-style-type: none;
             padding: 0px;
         }
 
@@ -12,6 +12,7 @@
             list-style-type: square;
             padding-left: 20px;
         }
+
         .containerGeneral {
             display: flex;
             flex-direction: column;
@@ -144,6 +145,7 @@
         .contact__link a:hover {
             color: #f0ae12;
         }
+
         .contact__link_black {
             color: #000000;
             text-decoration: none;
@@ -158,9 +160,10 @@
         /* Стили, применяемые при наведении */
         .contact__link_black a:hover {
             color: #f0ae12;
-            text-decoration:underline;
+            text-decoration: underline;
             text-decoration-line: underline;
         }
+
         .bold {
             font-weight: bold;
         }
@@ -176,6 +179,7 @@
             display: flex;
             justify-content: flex-start;
         }
+
         .experience-text-column {
             display: flex;
             flex-direction: column;
@@ -263,6 +267,4 @@
                 padding: 25px;
                 max-width: 500px;
             }
-
-
         }

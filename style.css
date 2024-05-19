@@ -23,7 +23,7 @@
         .containerMain {
             display: flex;
             flex-direction: row;
-            max-width: 1400px;
+            /* max-width: 1400px; */
             min-width: 700px;
         }
 
@@ -194,7 +194,7 @@
             padding: 1px 20px;
         }
 
-        @media screen and (max-width: 1050px) {
+        /* @media screen and (max-width: 1100px) {
 
             .columnpadding {
                 width: 50px;
@@ -203,10 +203,10 @@
             .columnpaddingBlack {
                 width: 50px;
             }
-        }
+        } */
 
-        @media screen and (max-width: 750px) {
-
+        /* @media screen and (max-width: 750px) { */
+            @media screen and (max-width: 1100px) {
 
             .containerMain {
                 flex-direction: column;
